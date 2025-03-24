@@ -1,0 +1,10 @@
+{
+    "appName": {
+      "message": "Suivi des Changements de Sites Web",
+      "description": "Nom de l'extension"
+    },
+    "appDesc": {
+      "message": "Suit les changements sur les sites web spécifiés et envoie des notifications",
+      "description": "Description de l'extension"
+    }
+  }

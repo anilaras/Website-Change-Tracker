@@ -1,0 +1,10 @@
+{
+    "appName": {
+      "message": "Webseiten-Änderungstracker",
+      "description": "Name der Erweiterung"
+    },
+    "appDesc": {
+      "message": "Verfolgt Änderungen auf angegebenen Webseiten und sendet Benachrichtigungen",
+      "description": "Beschreibung der Erweiterung"
+    }
+  }

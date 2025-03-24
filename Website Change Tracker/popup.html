@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Site Değişiklik Takipçisi</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1 data-i18n="appTitle">Site Değişiklik Takipçisi</h1>
+      <div class="language-selector">
+        <select id="languageSelect">
+          <option value="tr">Türkçe</option>
+          <option value="en">English</option>
+          <option value="de">Deutsch</option>
+          <option value="fr">Français</option>
+          <option value="es">Español</option>
+        </select>
+      </div>
+    </div>
+    
+    <div class="form-group">
+      <label for="urlInput" data-i18n="urlLabel">Takip Edilecek Site URL:</label>
+      <input type="text" id="urlInput" placeholder="https://ornek.com">
+    </div>
+    
+    <div class="form-group">
+      <label for="selectorInput" data-i18n="selectorLabel">CSS Seçici (opsiyonel):</label>
+      <input type="text" id="selectorInput" placeholder="div.content, #main-content">
+      <small data-i18n="selectorHelp">Boş bırakılırsa tüm sayfa kontrol edilir</small>
+    </div>
+    
+    <div class="form-group">
+      <label for="intervalInput" data-i18n="intervalLabel">Kontrol Aralığı (dakika):</label>
+      <input type="number" id="intervalInput" min="5" value="30">
+    </div>
+    
+    <div class="button-group">
+      <button id="saveButton" data-i18n="saveButton">Kaydet ve Takibe Başla</button>
+      <button id="stopButton" data-i18n="stopButton">Takibi Durdur</button>
+    </div>
+    
+    <div id="status" class="status"></div>
+    
+    <div class="tracked-sites">
+      <h2 data-i18n="trackedSitesTitle">Takip Edilen Siteler</h2>
+      <ul id="siteList"></ul>
+    </div>
+  </div>
+  <script src="i18n.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

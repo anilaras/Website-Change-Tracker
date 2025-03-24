@@ -1,0 +1,10 @@
+{
+    "appName": {
+      "message": "Site Değişiklik Takipçisi",
+      "description": "Eklentinin adı"
+    },
+    "appDesc": {
+      "message": "Belirtilen web sitelerindeki değişiklikleri takip eder ve bildirim gönderir",
+      "description": "Eklentinin açıklaması"
+    }
+  }

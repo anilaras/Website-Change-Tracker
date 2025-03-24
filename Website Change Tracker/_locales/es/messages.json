@@ -1,0 +1,10 @@
+{
+    "appName": {
+      "message": "Rastreador de Cambios en Sitios Web",
+      "description": "Nombre de la extensión"
+    },
+    "appDesc": {
+      "message": "Rastrea cambios en sitios web especificados y envía notificaciones",
+      "description": "Descripción de la extensión"
+    }
+  }

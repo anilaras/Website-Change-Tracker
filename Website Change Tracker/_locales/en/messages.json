@@ -1,0 +1,10 @@
+{
+    "appName": {
+      "message": "Website Change Tracker",
+      "description": "Name of the extension"
+    },
+    "appDesc": {
+      "message": "Tracks changes on specified websites and sends notifications",
+      "description": "Description of the extension"
+    }
+  }

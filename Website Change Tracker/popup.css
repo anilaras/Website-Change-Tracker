@@ -1,0 +1,122 @@
+body {
+    width: 400px;
+    padding: 15px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  h1 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .language-selector {
+    margin-left: 10px;
+  }
+  
+  select {
+    padding: 4px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  h2 {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  small {
+    font-size: 11px;
+    color: #666;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  button {
+    flex: 1;
+    padding: 8px 12px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3367d6;
+  }
+  
+  #stopButton {
+    background-color: #f44336;
+  }
+  
+  #stopButton:hover {
+    background-color: #d32f2f;
+  }
+  
+  .status {
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    min-height: 20px;
+  }
+  
+  .status.success {
+    background-color: #e6f4ea;
+    color: #137333;
+  }
+  
+  .status.error {
+    background-color: #fce8e6;
+    color: #c5221f;
+  }
+  
+  .tracked-sites {
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+  }
+  
+  #siteList {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  #siteList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  #siteList button {
+    padding: 3px 8px;
+    font-size: 12px;
+  }
